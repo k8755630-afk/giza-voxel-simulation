@@ -1,0 +1,26 @@
+# Default Configuration for Giza Voxel Simulation
+
+# Simulation Settings
+simulation:
+  enabled: true
+  max_iterations: 1000
+  time_step: 0.01
+
+# Display Settings
+display:
+  width: 1920
+  height: 1080
+  fullscreen: false
+  fps_target: 60
+
+# Rendering Settings
+rendering:
+  quality: high
+  anti_aliasing: true
+  shadows_enabled: true
+
+# Logging Settings
+logging:
+  level: INFO
+  file: logs/simulation.log
+  console: true
